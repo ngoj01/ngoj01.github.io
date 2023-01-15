@@ -1,0 +1,32 @@
+@import Url("Https://Fonts.Googleapis.Com/Css2?Family=Open+Sans&Display=Swap");
+Body {
+  font-family: "Open Sans", Sans-Serif;
+  margin: 0;
+}
+A {
+  text-decoration: None;
+  color: #000;
+}
+A:hover {
+  color: Rgb(179, 179, 179);
+}
+.Site-Header {
+  border-bottom: 1px Solid #ccc;
+  padding: 0.5em 1em;
+  display: Flex;
+  justify-content: Space-Between;
+}
+.Site-Identity H1 {
+  font-size: 1.5em;
+  margin: 0.6em 0;
+  display: Inline-Block;
+}
+.Site-Navigation Ul,
+.Site-Navigation Li {
+  margin: 0;
+  padding: 0;
+}
+.Site-Navigation Li {
+  display: Inline-Block;
+  margin: 1.4em 1em 1em 1em;
+}
